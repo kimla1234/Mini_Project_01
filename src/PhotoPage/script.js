@@ -44,8 +44,8 @@ let photoCard = [
 let SECTION = document.querySelector("#photoCard");
 photoCard.map((photoCard) => {
   SECTION.innerHTML += ` 
-        <div class=" bg-white border border-gray-200 rounded-lg shadow p-5 dark:bg-gray-800 dark:border-gray-700">
-          <h5 class="mb-2 p-2   sm:text-lg text-center font-bold text-gray-900 dark:text-white ">
+        <div class=" bg-white border border-gray-200 rounded-lg shadow p-5 ">
+          <h5 class="mb-2 p-2   sm:text-lg text-center font-bold text-gray-900  ">
            ${photoCard.description}
            </h5>
           <div class="grid grid-cols-2 sm:gap-2  lg:gap-4 items-center justify-center">
