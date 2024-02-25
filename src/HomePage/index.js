@@ -53,7 +53,7 @@ card.map((card) => {
       ${card.description}
     </p>
     <div class="flex items-center justify-between flex-wrap">
-                <a href="/src/DocumentPage/document_page.html" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                <a href="./src/DocumentPage/document_page.html" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                     Learn More
                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
